@@ -1,0 +1,30 @@
+<!-- 鱼头 --><!-- 鱼头 --><!-- 鱼头 -->
+<view class="header">
+    <image mode class="header-left" src="../../image/img_index01.png"></image>
+    <image mode class="header-right" src="../../image/img_index02.png"></image>
+</view>
+<view class="content">
+    <image mode class="content-bg" src="../../image/img_index03.png"></image>
+    <view class="content-main">
+        <view class="riddle-choose">
+            <view class="riddle-mode">
+                <view bindtap="bind_easymode_startup" class="riddle-mode-item" hoverClass="hover">
+                    <image mode src="../../image/img_index05.png"></image>
+                    <view class="text">
+                        青铜模式
+                    </view>
+                </view>
+                <view class="riddle-mode-item-separate"></view>
+                <view bindtap="bind_hardmode_startup" class="riddle-mode-item" hoverClass="hover">
+                    <image mode src="../../image/img_index05.png"></image>
+                    <view class="text">
+                        王者模式
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="footer">
+    <image mode class="footer-bottom" src="../../image/img_index04.png"></image>
+</view>
