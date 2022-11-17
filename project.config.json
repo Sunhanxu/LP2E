@@ -1,0 +1,63 @@
+{
+  "description": "项目配置文件。",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "coverView": false,
+    "enhance": false,
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": true,
+    "autoAudits": false
+  },
+  "compileType": "miniprogram",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "手机绑定",
+          "pathName": "pages/user/bindphone/index",
+          "query": ""
+        },
+        {
+          "name": "涂鸦",
+          "pathName": "pages/index/index",
+          "query": ""
+        },
+        {
+          "name": "古诗古词  游戏页",
+          "pathName": "pages/peotry/index",
+          "query": "num=1"
+        },
+        {
+          "name": "古诗古词 开始页",
+          "pathName": "pages/gamelist/index",
+          "query": ""
+        },
+        {
+          "name": "古诗古词  结果页",
+          "pathName": "pages/gameresult/result",
+          "query": "num=1"
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "2.4.3",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wx7f296293dc8a5452"
+}

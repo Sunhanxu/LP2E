@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/gamelist/index",
+    "pages/peotry/index",
+    "pages/gameresult/result",
+    "pages/user/bindphone/index",
+    "pages/logs/logs",
+    "pages/hall/index",
+    "pages/index/index",
+    "pages/riddle_answer/riddle_answer",
+    "pages/Bird/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#cc3333",
+    "navigationBarTitleText": "游戏设计",
+    "navigationBarTextStyle": "black"
+  }
+}
